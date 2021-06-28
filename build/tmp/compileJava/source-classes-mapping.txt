@@ -1,0 +1,14 @@
+com/selenium/test/base/BaseProgram.java
+ com.selenium.test.base.BaseProgram
+com/selenium/test/Pages/Screenshot.java
+ com.selenium.test.Pages.Screenshot
+com/selenium/test/Pages/Login.java
+ com.selenium.test.Pages.Login
+com/selenium/test/Pages/Navigate.java
+ com.selenium.test.Pages.Navigate
+com/selenium/test/Pages/Registration.java
+ com.selenium.test.Pages.Registration
+com/selenium/test/Pages/Logout.java
+ com.selenium.test.Pages.Logout
+com/selenium/test/Pages/PostPage.java
+ com.selenium.test.Pages.PostPage
