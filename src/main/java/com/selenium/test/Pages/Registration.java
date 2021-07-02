@@ -76,7 +76,7 @@ public class Registration extends BaseProgram {
         r.keyRelease(KeyEvent.VK_TAB);
         Thread.sleep(1000);
 
-        Email.sendKeys("mundkarsagar@gmail.com");
+        Email.sendKeys("*****@gmail.com");
         Thread.sleep(1000);
 
         r.mouseMove(232 ,281);
@@ -84,13 +84,13 @@ public class Registration extends BaseProgram {
         r.keyRelease(KeyEvent.VK_TAB);
         Thread.sleep(1000);
 
-        ReEnterEmail.sendKeys("mundkarsagar@gmail.com");
+        ReEnterEmail.sendKeys("*****@gmail.com");
         Thread.sleep(1000);
 
         r.mouseMove(351 ,301);
         r.keyPress(KeyEvent.VK_TAB);
         r.keyRelease(KeyEvent.VK_TAB);
-        Password.sendKeys("sagar1234@13");
+        Password.sendKeys("1234@13");
         Thread.sleep(1000);
 
         Select daydropdown = new Select(Day);
