@@ -1,6 +1,8 @@
 package com.selenium.test.Pages;
 
 import com.selenium.test.base.BaseProgram;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.checkerframework.checker.units.qual.K;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -12,8 +14,9 @@ import java.awt.datatransfer.StringSelection;
 import java.awt.event.KeyEvent;
 
 public class PostPage extends BaseProgram {
+    Logger logger = LogManager.getLogger(Login.class);
 
-        @FindBy(xpath = "//span[contains(text(),'Photo/Video')]")
+    @FindBy(xpath = "//span[contains(text(),'Photo/Video')]")
         WebElement CreatePost;
 
         public  PostPage(WebDriver driver){
@@ -37,8 +40,12 @@ public class PostPage extends BaseProgram {
         }
 
         public void Post_to_page() throws InterruptedException, AWTException {
+            logger.debug("Create Post");
             CreatePost.click();
             Thread.sleep(2000);
+            logger.debug("Upload file");
             uploadFile();
     }
+
+
 }
