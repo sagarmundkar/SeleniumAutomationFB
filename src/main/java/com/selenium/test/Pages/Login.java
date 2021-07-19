@@ -30,9 +30,9 @@ public class Login extends BaseProgram {
 
     public void LoginApplication() throws InterruptedException {
         logger.info("Entering the Email");
-        email.sendKeys("shreemundkar@gmail.com");
+        email.sendKeys("********");
         logger.info("Entering the Password");
-        password.sendKeys("SagarMundkar@1234");
+        password.sendKeys("*******");
         logger.info("Click on button");
         loginbutton.click();
         logger.debug("Wait for some time");
